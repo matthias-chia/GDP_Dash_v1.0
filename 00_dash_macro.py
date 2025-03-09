@@ -27,7 +27,9 @@ from Functions.db_call import manage_sqlite_db
 from Functions.df_colRename import colrename_Transpose
 
 # ------ 1. Set up config ------------
-st.set_page_config(page_title="Macro Dashboard",
+st.set_page_config(page_title="""
+#Macro Dashboard
+### Created by: Matt C.""",
                    page_icon=":globe_with_meridians:",
                    layout="wide")
 
