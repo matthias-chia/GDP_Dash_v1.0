@@ -27,9 +27,7 @@ from Functions.db_call import manage_sqlite_db
 from Functions.df_colRename import colrename_Transpose
 
 # ------ 1. Set up config ------------
-st.set_page_config(page_title="""
-#Macro Dashboard
-### Created by: Matt C.""",
+st.set_page_config(page_title="Macro Dashboard",
                    page_icon=":globe_with_meridians:",
                    layout="wide")
 
@@ -69,6 +67,7 @@ gdp_list_selection = economy_gdp #['USA', 'CHN', 'DEU']
 
 st.title(":globe_with_meridians: Global Macro Dashboard")
 st.write(""" 
+        ### Created by: Matt C.
          This macro dashboard is built to provide a an introduction to the world's macro economy by
          1. Providing an interactive visuals of the top 3 markets
          2. Provide a forecast of the next critical dates 
