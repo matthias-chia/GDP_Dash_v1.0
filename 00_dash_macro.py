@@ -67,7 +67,7 @@ gdp_list_selection = economy_gdp #['USA', 'CHN', 'DEU']
 
 st.title(":globe_with_meridians: Global Macro Dashboard")
 st.write(""" 
-        ### Created by: Matt C.
+        Created by: Matty C.
          This macro dashboard is built to provide a an introduction to the world's macro economy by
          1. Providing an interactive visuals of the top 3 markets
          2. Provide a forecast of the next critical dates 
